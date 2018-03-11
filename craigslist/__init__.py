@@ -56,9 +56,9 @@ class CraigslistBase(object):
     """ Base class for all Craiglist wrappers. """
 
     url_templates = {
-        'base': 'http://%(site)s.craigslist.org',
-        'no_area': 'http://%(site)s.craigslist.org/search/%(category)s',
-        'area': 'http://%(site)s.craigslist.org/search/%(area)s/%(category)s'
+        'base': 'http://%(site)s.craigslist.ca',
+        'no_area': 'http://%(site)s.craigslist.ca/search/%(category)s',
+        'area': 'http://%(site)s.craigslist.ca/search/%(area)s/%(category)s'
     }
 
     default_site = 'sfbay'
