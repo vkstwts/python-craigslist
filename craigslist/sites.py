@@ -2,7 +2,7 @@ from bs4 import BeautifulSoup
 import requests
 
 ALL_SITES_URL = 'http://www.craigslist.org/about/sites'
-SITE_URL = 'http://%s.craigslist.org'
+SITE_URL = 'http://%s.craigslist.ca'
 
 
 def get_all_sites():
